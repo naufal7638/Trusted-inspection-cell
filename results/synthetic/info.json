@@ -1,0 +1,10 @@
+{
+  "name": "synthetic",
+  "train": "data/synthetic/train",
+  "test": "data/synthetic/test",
+  "n_train": 120,
+  "n_test": 100,
+  "model": "gemma3:4b",
+  "mock": false,
+  "presence_train_accuracy": 1.0
+}

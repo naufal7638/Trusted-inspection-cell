@@ -1,0 +1,86 @@
+
+trained_classifier: 0 done, 26 to go
+  [1/26] XX blurry_02.jpg            REJECT     0.0s  classifier predicted missing_screw
+  [2/26] ok crack_02.jpg             REJECT     0.0s  classifier predicted missing_screw
+  [3/26] ok crack_03.jpg             REJECT     0.0s  classifier predicted missing_screw
+  [4/26] ok crack_05.jpg             REJECT     0.0s  classifier predicted missing_screw
+  [5/26] ok crack_06.jpg             REJECT     0.0s  classifier predicted missing_screw
+  [6/26] ok dark_02.jpg              REVIEW     0.0s  classifier predicted dark
+  [7/26] ok good_02.jpg              PASS       0.0s  classifier predicted good
+  [8/26] XX good_03.jpg              REJECT     0.0s  classifier predicted missing_screw
+  [9/26] XX good_05.jpg              REJECT     0.0s  classifier predicted missing_screw
+  [10/26] ok good_06.jpg              PASS       0.0s  classifier predicted good
+  [11/26] XX good_08.jpg              REJECT     0.0s  classifier predicted missing_screw
+  [12/26] ok good_09.jpg              PASS       0.0s  classifier predicted good
+  [13/26] XX good_11.jpg              REJECT     0.0s  classifier predicted missing_screw
+  [14/26] ok good_12.jpg              PASS       0.0s  classifier predicted good
+  [15/26] XX missing_screw_02.jpg     PASS       0.0s  classifier predicted good
+  [16/26] ok missing_screw_03.jpg     REJECT     0.0s  classifier predicted missing_screw
+  [17/26] ok missing_screw_05.jpg     REJECT     0.0s  classifier predicted crack
+  [18/26] ok missing_screw_06.jpg     REJECT     0.0s  classifier predicted missing_screw
+  [19/26] ok missing_screw_08.jpg     REJECT     0.0s  classifier predicted missing_screw
+  [20/26] ok missing_screw_09.jpg     REJECT     0.0s  classifier predicted crack
+  [21/26] ok missing_screw_11.jpg     REJECT     0.0s  classifier predicted missing_screw
+  [22/26] ok missing_screw_12.jpg     REJECT     0.0s  classifier predicted missing_screw
+  [23/26] ok scratch_02.jpg           REJECT     0.0s  classifier predicted crack
+  [24/26] ok scratch_03.jpg           REJECT     0.0s  classifier predicted crack
+  [25/26] ok scratch_05.jpg           REJECT     0.0s  classifier predicted missing_screw
+  [26/26] ok scratch_06.jpg           REJECT     0.0s  classifier predicted missing_screw
+
+naive_vlm: 0 done, 26 to go
+  [1/26] XX blurry_02.jpg            PASS      22.8s  none @ 0.95: The part appears to be complete with all screws securely 
+  [2/26] ok crack_02.jpg             REJECT    17.8s  crack @ 0.70: There is a visible crack in the cardboard backing.
+  [3/26] XX dark_02.jpg              PASS      17.8s  none @ 0.95: The part appears to be complete with all screws securely 
+  [4/26] ok good_02.jpg              PASS      17.5s  none @ 0.95: The part appears complete with all screws securely fasten
+  [5/26] XX missing_screw_02.jpg     PASS      17.7s  none @ 0.95: The part appears to be complete with all screws in place 
+  [6/26] XX scratch_02.jpg           PASS      17.4s  none @ 0.95: The part appears to be complete and undamaged with all sc
+  [7/26] ok crack_03.jpg             REJECT    17.3s  crack @ 0.70: There is a visible crack in the cardboard backing.
+  [8/26] ok crack_05.jpg             REJECT    17.1s  crack @ 0.70: There is a visible crack in the cardboard backing.
+  [9/26] ok crack_06.jpg             REJECT    17.2s  crack @ 0.70: There is a visible crack in the cardboard.
+  [10/26] ok good_03.jpg              PASS      17.6s  none @ 0.95: The part appears to be complete with all screws securely 
+  [11/26] ok good_05.jpg              PASS      17.6s  none @ 0.95: The part appears to be complete with all screws securely 
+  [12/26] ok good_06.jpg              PASS      17.6s  none @ 0.95: The part appears to be complete with all screws securely 
+  [13/26] ok good_08.jpg              PASS      17.3s  none @ 0.95: The part appears to be complete with no visible defects.
+  [14/26] ok good_09.jpg              PASS      17.7s  none @ 0.95: The part appears to be complete with all screws securely 
+  [15/26] ok good_11.jpg              PASS      17.7s  none @ 0.95: The part appears to be complete with all screws securely 
+  [16/26] ok good_12.jpg              PASS      17.6s  none @ 0.95: The part appears complete with all screws in place and no
+  [17/26] XX missing_screw_03.jpg     PASS      17.8s  none @ 0.95: The part appears to be complete with all screws securely 
+  [18/26] XX missing_screw_05.jpg     PASS      17.7s  none @ 0.95: The part appears to be complete with all screws securely 
+  [19/26] XX missing_screw_06.jpg     PASS      17.8s  none @ 0.95: The part appears to be complete with all screws in place 
+  [20/26] XX missing_screw_08.jpg     PASS      17.5s  none @ 0.95: The part appears to be complete and undamaged with all sc
+  [21/26] XX missing_screw_09.jpg     PASS      17.6s  none @ 0.95: The part appears to be complete with all screws in place 
+  [22/26] XX missing_screw_11.jpg     PASS      17.7s  none @ 0.95: The part appears to be complete with all screws securely 
+  [23/26] XX missing_screw_12.jpg     PASS      17.6s  none @ 0.95: The part appears to be complete and undamaged with all sc
+  [24/26] XX scratch_03.jpg           PASS      17.8s  none @ 0.95: The part appears to be complete with all screws securely 
+  [25/26] XX scratch_05.jpg           PASS      18.0s  none @ 0.95: The part appears to be complete with all screws securely 
+  [26/26] XX scratch_06.jpg           PASS      17.8s  none @ 0.95: The part appears to be complete with all screws securely 
+
+inspection_cell: 0 done, 26 to go
+  [1/26] ok blurry_02.jpg            REVIEW     0.1s  image too blurry (sharpness 201 < 230)
+  [2/26] ok crack_02.jpg             REJECT    87.0s  surface damage at surface top: AI saw "The metal plate surface appears
+  [3/26] ok dark_02.jpg              REVIEW     0.0s  image too blurry (sharpness 127 < 230)
+  [4/26] XX good_02.jpg              REJECT    84.0s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [5/26] ok missing_screw_02.jpg     REJECT     0.1s  missing screw at screw top-right: presence check found an empty hole (
+  [6/26] ok scratch_02.jpg           REJECT    85.0s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [7/26] ok crack_03.jpg             REJECT    84.9s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [8/26] ok crack_05.jpg             REJECT    89.1s  surface damage at surface top: AI saw "The metal plate surface appears
+  [9/26] ok crack_06.jpg             REJECT    84.3s  surface damage at surface top: AI saw "The metal plate surface appears
+  [10/26] XX good_03.jpg              REJECT    83.9s  surface damage at surface top: AI saw "The metal plate surface appears
+  [11/26] XX good_05.jpg              REJECT    83.2s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [12/26] XX good_06.jpg              REJECT    87.7s  surface damage at surface top: AI saw "The metal plate surface appears
+  [13/26] XX good_08.jpg              REJECT    83.9s  surface damage at surface top: AI saw "The metal plate surface appears
+  [14/26] XX good_09.jpg              REJECT    83.4s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [15/26] XX good_11.jpg              REJECT    83.7s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [16/26] XX good_12.jpg              REJECT    88.8s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [17/26] ok missing_screw_03.jpg     REJECT     0.1s  missing screw at screw bottom-right: presence check found an empty hol
+  [18/26] ok missing_screw_05.jpg     REJECT     0.1s  missing screw at screw top-left: presence check found an empty hole (p
+  [19/26] ok missing_screw_06.jpg     REJECT     0.1s  missing screw at screw top-right: presence check found an empty hole (
+  [20/26] ok missing_screw_08.jpg     REJECT     0.1s  missing screw at screw bottom-left: presence check found an empty hole
+  [21/26] ok missing_screw_09.jpg     REJECT     0.1s  missing screw at screw top-left: presence check found an empty hole (p
+  [22/26] ok missing_screw_11.jpg     REJECT     0.1s  missing screw at screw bottom-right: presence check found an empty hol
+  [23/26] ok missing_screw_12.jpg     REJECT     0.1s  missing screw at screw bottom-left: presence check found an empty hole
+  [24/26] XX scratch_03.jpg           REVIEW     0.0s  image too blurry (sharpness 177 < 230)
+  [25/26] ok scratch_05.jpg           REJECT    84.0s  surface damage at surface top: AI saw "The metal plate surface exhibit
+  [26/26] ok scratch_06.jpg           REJECT    83.8s  surface damage at surface top: AI saw "The metal plate surface exhibit
+
+report: results/real/report.md

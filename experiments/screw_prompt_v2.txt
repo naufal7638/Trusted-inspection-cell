@@ -1,0 +1,7 @@
+This is a close-up of one screw position on a metal plate.
+An installed screw looks like a light round head with a cross-shaped slot. The cross can be turned to any angle, so it may look like a + or like an X.
+An empty hole looks like a plain dark round hole, with no head and no slot.
+First, describe in one sentence exactly what you see.
+Then, on a new last line, write exactly one of:
+ANSWER: SCREW   (a screw head is installed)
+ANSWER: EMPTY   (the hole has no screw)

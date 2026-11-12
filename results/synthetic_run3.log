@@ -1,0 +1,48 @@
+
+trained_classifier: 100 done, 0 to go
+
+naive_vlm: 40 done, 0 to go
+
+inspection_cell: 0 done, 40 to go
+  [1/40] ok crack_001.png            REJECT    83.9s  surface damage at surface top: AI saw "The metal plate surface appears
+  [2/40] XX good_001.png             REJECT   102.4s  surface damage at surface left: AI saw "The metal plate surface appear
+  [3/40] ok missing_screw_001.png    REJECT     0.0s  missing screw at screw bottom-left: presence check found an empty hole
+  [4/40] ok scratch_001.png          REJECT    96.5s  surface damage at surface left: AI saw "The metal plate surface appear
+  [5/40] ok crack_002.png            REJECT   117.7s  surface damage at surface center: AI saw "The metal plate surface show
+  [6/40] ok good_002.png             PASS     144.8s  all 9 regions checked and OK (screws confirmed by both checks)
+  [7/40] ok missing_screw_002.png    REJECT     0.1s  missing screw at screw bottom-left: presence check found an empty hole
+  [8/40] ok scratch_002.png          REJECT   149.1s  surface damage at surface bottom: AI saw "The metal plate surface appe
+  [9/40] ok crack_003.png            REJECT   112.7s  surface damage at surface center: AI saw "The metal plate surface exhi
+  [10/40] ok good_003.png             PASS     145.8s  all 9 regions checked and OK (screws confirmed by both checks)
+  [11/40] ok missing_screw_003.png    REJECT     0.0s  missing screw at screw bottom-right: presence check found an empty hol
+  [12/40] ok scratch_003.png          REJECT   117.5s  surface damage at surface center: AI saw "The metal plate surface appe
+  [13/40] ok crack_004.png            REJECT    81.4s  surface damage at surface top: AI saw "The metal plate surface appears
+  [14/40] ok good_004.png             PASS     144.6s  all 9 regions checked and OK (screws confirmed by both checks)
+  [15/40] ok missing_screw_004.png    REJECT     0.0s  missing screw at screw bottom-right: presence check found an empty hol
+  [16/40] ok scratch_004.png          REJECT   100.1s  surface damage at surface left: AI saw "The metal plate surface shows 
+  [17/40] ok crack_005.png            REJECT    97.1s  surface damage at surface left: AI saw "The metal plate surface shows 
+  [18/40] ok good_005.png             PASS     144.5s  all 9 regions checked and OK (screws confirmed by both checks)
+  [19/40] ok missing_screw_005.png    REJECT     0.0s  missing screw at screw top-right: presence check found an empty hole (
+  [20/40] ok scratch_005.png          REJECT   115.8s  surface damage at surface center: AI saw "The metal plate surface appe
+  [21/40] ok crack_006.png            REJECT    81.1s  surface damage at surface top: AI saw "The metal plate surface appears
+  [22/40] ok good_006.png             PASS     147.6s  all 9 regions checked and OK (screws confirmed by both checks)
+  [23/40] ok missing_screw_006.png    REJECT     0.1s  missing screw at screw bottom-right: presence check found an empty hol
+  [24/40] ok scratch_006.png          REJECT    96.0s  surface damage at surface left: AI saw "The metal plate surface appear
+  [25/40] ok crack_007.png            REJECT    81.1s  surface damage at surface top: AI saw "The metal plate surface appears
+  [26/40] XX good_007.png             REJECT   130.1s  surface damage at surface right: AI saw "The metal plate surface appea
+  [27/40] ok missing_screw_007.png    REJECT     0.0s  missing screw at screw bottom-right: presence check found an empty hol
+  [28/40] ok scratch_007.png          REJECT    84.3s  surface damage at surface top: AI saw "The metal plate surface appears
+  [29/40] ok crack_008.png            REJECT    96.9s  surface damage at surface left: AI saw "The metal plate surface appear
+  [30/40] ok good_008.png             PASS     143.8s  all 9 regions checked and OK (screws confirmed by both checks)
+  [31/40] ok missing_screw_008.png    REJECT     0.0s  missing screw at screw top-left: presence check found an empty hole (p
+  [32/40] ok scratch_008.png          REJECT   117.0s  surface damage at surface center: AI saw "The metal plate surface appe
+  [33/40] ok crack_009.png            REJECT   112.3s  surface damage at surface center: AI saw "The metal plate surface show
+  [34/40] ok good_009.png             PASS     147.6s  all 9 regions checked and OK (screws confirmed by both checks)
+  [35/40] ok missing_screw_009.png    REJECT     0.0s  missing screw at screw top-right: presence check found an empty hole (
+  [36/40] ok scratch_009.png          REJECT   111.3s  surface damage at surface center: AI saw "The metal plate surface appe
+  [37/40] ok crack_010.png            REJECT   112.2s  surface damage at surface center: AI saw "The metal plate surface exhi
+  [38/40] ok good_010.png             PASS     146.5s  all 9 regions checked and OK (screws confirmed by both checks)
+  [39/40] ok missing_screw_010.png    REJECT     0.1s  missing screw at screw top-left: presence check found an empty hole (p
+  [40/40] ok scratch_010.png          REJECT   113.1s  surface damage at surface center: AI saw "The metal plate surface appe
+
+report: results/synthetic/report.md

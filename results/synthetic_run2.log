@@ -1,0 +1,56 @@
+
+trained_classifier: 100 done, 0 to go
+
+naive_vlm: 32 done, 8 to go
+  [1/8] XX crack_009.png            PASS      16.6s  none @ 0.95: The part appears to be complete and undamaged.
+  [2/8] ok good_009.png             PASS      17.1s  none @ 0.95: The part appears to be complete and undamaged with all sc
+  [3/8] XX missing_screw_009.png    PASS      17.1s  none @ 0.95: The part appears to be complete and undamaged.
+  [4/8] XX scratch_009.png          PASS      17.7s  none @ 0.95: The part appears to be free of defects and all components
+  [5/8] XX crack_010.png            PASS      17.2s  none @ 0.95: The part appears to be complete and without visible defec
+  [6/8] ok good_010.png             PASS      17.4s  none @ 0.95: The part appears to be complete and undamaged with all sc
+  [7/8] XX missing_screw_010.png    PASS      17.1s  none @ 0.95: The part appears to be complete and undamaged.
+  [8/8] XX scratch_010.png          PASS      17.6s  none @ 0.95: The part appears to be complete and undamaged with all sc
+
+inspection_cell: 0 done, 40 to go
+  [1/40] ok crack_001.png            REJECT    16.6s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [2/40] XX good_001.png             REJECT    50.3s  missing screw at screw bottom-left: AI saw "I see a circular icon with
+  [3/40] ok missing_screw_001.png    REJECT    33.3s  missing screw at screw top-right: AI saw "I see a circular icon with a
+  [4/40] ok scratch_001.png          REJECT    16.9s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [5/40] ok crack_002.png            REJECT    16.1s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [6/40] XX good_002.png             REJECT    16.0s  missing screw at screw top-left: AI saw "I see a circular metal plate 
+  [7/40] ok missing_screw_002.png    REJECT    33.0s  missing screw at screw top-right: AI saw "I see a white "X" symbol con
+  [8/40] ok scratch_002.png          REJECT    16.5s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [9/40] ok crack_003.png            REJECT    33.2s  missing screw at screw top-right: AI saw "I see a circular icon depict
+  [10/40] XX good_003.png             REJECT    16.3s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [11/40] ok missing_screw_003.png    REJECT    33.4s  missing screw at screw top-right: AI saw "I see a circular icon with a
+  [12/40] ok scratch_003.png          REJECT    16.6s  missing screw at screw top-left: AI saw "I see a circular icon with a 
+  [13/40] ok crack_004.png            REJECT    33.3s  missing screw at screw top-right: AI saw "I see a circular icon with a
+  [14/40] XX good_004.png             REJECT    50.0s  missing screw at screw bottom-left: AI saw "I see a circular icon with
+  [15/40] XX missing_screw_004.png    PASS     150.1s  all 9 regions checked and OK
+  [16/40] ok scratch_004.png          REJECT    68.9s  missing screw at screw bottom-right: AI saw "I see a circular icon wit
+  [17/40] XX crack_005.png            REVIEW    23.6s  AI unavailable: model server unreachable
+  [18/40] XX good_005.png             REVIEW     0.1s  AI unavailable: model server unreachable
+  [19/40] XX missing_screw_005.png    REVIEW     0.1s  AI unavailable: model server unreachable
+  [20/40] XX scratch_005.png          REVIEW     0.0s  degraded mode: AI failed 3 times in a row, skipping it
+  [21/40] XX crack_006.png            REVIEW     0.0s  degraded mode: AI failed 3 times in a row, skipping it
+  [22/40] XX good_006.png             REVIEW     0.0s  degraded mode: AI failed 3 times in a row, skipping it
+  [23/40] XX missing_screw_006.png    REVIEW     0.0s  degraded mode: AI failed 3 times in a row, skipping it
+  [24/40] XX scratch_006.png          REVIEW     0.1s  AI unavailable: model server unreachable
+  [25/40] XX crack_007.png            REVIEW     0.0s  degraded mode: AI failed 4 times in a row, skipping it
+  [26/40] XX good_007.png             REVIEW     0.0s  degraded mode: AI failed 4 times in a row, skipping it
+  [27/40] XX missing_screw_007.png    REVIEW     0.0s  degraded mode: AI failed 4 times in a row, skipping it
+  [28/40] XX scratch_007.png          REVIEW     0.0s  degraded mode: AI failed 4 times in a row, skipping it
+  [29/40] XX crack_008.png            REVIEW     0.1s  AI unavailable: model server unreachable
+  [30/40] XX good_008.png             REVIEW     0.0s  degraded mode: AI failed 5 times in a row, skipping it
+  [31/40] XX missing_screw_008.png    REVIEW     0.0s  degraded mode: AI failed 5 times in a row, skipping it
+  [32/40] XX scratch_008.png          REVIEW     0.0s  degraded mode: AI failed 5 times in a row, skipping it
+  [33/40] XX crack_009.png            REVIEW     0.0s  degraded mode: AI failed 5 times in a row, skipping it
+  [34/40] XX good_009.png             REVIEW     0.1s  AI unavailable: model server unreachable
+  [35/40] XX missing_screw_009.png    REVIEW     0.0s  degraded mode: AI failed 6 times in a row, skipping it
+  [36/40] XX scratch_009.png          REVIEW     0.0s  degraded mode: AI failed 6 times in a row, skipping it
+  [37/40] XX crack_010.png            REVIEW     0.0s  degraded mode: AI failed 6 times in a row, skipping it
+  [38/40] XX good_010.png             REVIEW     0.0s  degraded mode: AI failed 6 times in a row, skipping it
+  [39/40] XX missing_screw_010.png    REVIEW     0.1s  AI unavailable: model server unreachable
+  [40/40] XX scratch_010.png          REVIEW     0.0s  degraded mode: AI failed 7 times in a row, skipping it
+
+report: results/synthetic/report.md

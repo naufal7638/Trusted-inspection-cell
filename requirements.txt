@@ -1,0 +1,12 @@
+py_trees>=2.2
+numpy
+scipy
+pillow
+requests
+scikit-learn
+matplotlib
+pandas
+streamlit
+pytest
+# live webcam (live.py, run.py --webcam)
+opencv-python

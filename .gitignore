@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+
+# run-time state (audit logs, captures, e-stop file)
+runtime/
+runtime_*/
+
+# local-only: original camera files (renamed copies are in data/real), Kaggle upload packages,
+# wheels bundled only for the offline Kaggle notebook, rendered notebook, tool settings
+photos/
+kaggle_upload/
+trusted-inspection-cell.zip
+wheels/
+notebook/*.html
+demo/prerun.log
+.claude/
+CLAUDE.md

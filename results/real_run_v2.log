@@ -1,0 +1,34 @@
+
+trained_classifier: 26 done, 0 to go
+
+naive_vlm: 26 done, 0 to go
+
+inspection_cell: 0 done, 26 to go
+  [1/26] ok blurry_02.jpg            REVIEW     0.0s  image too blurry (sharpness 201 < 230)
+  [2/26] ok crack_02.jpg             REJECT   100.1s  surface damage at surface left: AI saw "Yes, I see a distinct, sharp, 
+  [3/26] ok dark_02.jpg              REVIEW     0.0s  image too blurry (sharpness 127 < 230)
+  [4/26] ok good_02.jpg              PASS     147.4s  all 9 regions checked and OK (screws confirmed by both checks)
+  [5/26] ok missing_screw_02.jpg     REJECT     0.1s  missing screw at screw top-right: presence check found an empty hole (
+  [6/26] ok scratch_02.jpg           REJECT   152.8s  surface damage at surface bottom: AI saw "Yes, I see a distinct, sharp
+  [7/26] ok crack_03.jpg             REJECT   131.5s  surface damage at surface right: AI saw "Yes, I see a distinct, sharp 
+  [8/26] ok crack_05.jpg             REJECT   114.9s  surface damage at surface center: AI saw "Yes, I see a distinct, sharp
+  [9/26] ok crack_06.jpg             REJECT   119.1s  surface damage at surface center: AI saw "Yes, I see a distinct, sharp
+  [10/26] XX good_03.jpg              REJECT   100.2s  surface damage at surface left: AI saw "Yes, I see a distinct, sharp d
+  [11/26] XX good_05.jpg              REJECT    99.8s  surface damage at surface left: AI saw "Yes, I see a distinct, sharp d
+  [12/26] ok good_06.jpg              PASS     151.6s  all 9 regions checked and OK (screws confirmed by both checks)
+  [13/26] ok good_08.jpg              PASS     148.3s  all 9 regions checked and OK (screws confirmed by both checks)
+  [14/26] ok good_09.jpg              PASS     152.1s  all 9 regions checked and OK (screws confirmed by both checks)
+  [15/26] XX good_11.jpg              REJECT    99.9s  surface damage at surface left: AI saw "Yes, I see a distinct, sharp d
+  [16/26] ok good_12.jpg              PASS     149.4s  all 9 regions checked and OK (screws confirmed by both checks)
+  [17/26] ok missing_screw_03.jpg     REJECT     0.1s  missing screw at screw bottom-right: presence check found an empty hol
+  [18/26] ok missing_screw_05.jpg     REJECT     0.1s  missing screw at screw top-left: presence check found an empty hole (p
+  [19/26] ok missing_screw_06.jpg     REJECT     0.1s  missing screw at screw top-right: presence check found an empty hole (
+  [20/26] ok missing_screw_08.jpg     REJECT     0.1s  missing screw at screw bottom-left: presence check found an empty hole
+  [21/26] ok missing_screw_09.jpg     REJECT     0.1s  missing screw at screw top-left: presence check found an empty hole (p
+  [22/26] ok missing_screw_11.jpg     REJECT     0.1s  missing screw at screw bottom-right: presence check found an empty hol
+  [23/26] ok missing_screw_12.jpg     REJECT     0.1s  missing screw at screw bottom-left: presence check found an empty hole
+  [24/26] XX scratch_03.jpg           REVIEW     0.0s  image too blurry (sharpness 177 < 230)
+  [25/26] ok scratch_05.jpg           REJECT    87.6s  surface damage at surface top: AI saw "Yes, I see a distinct, sharp da
+  [26/26] ok scratch_06.jpg           REJECT   132.7s  surface damage at surface right: AI saw "Yes, I see a distinct, sharp,
+
+report: results/real/report.md

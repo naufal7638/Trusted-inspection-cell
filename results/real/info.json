@@ -1,0 +1,11 @@
+{
+  "name": "real",
+  "train": "data/real/train",
+  "test": "data/real/test",
+  "n_train": 14,
+  "n_test": 26,
+  "model": "gemma3:4b",
+  "mock": false,
+  "part": "cardboard_board",
+  "presence_train_accuracy": 1.0
+}

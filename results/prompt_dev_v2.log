@@ -1,0 +1,28 @@
+  current   good_001.png           screw top-left     truth=SCREW got=SCREW
+  current   good_011.png           screw top-right    truth=SCREW got=SCREW
+  current   good_021.png           screw bottom-left  truth=SCREW got=EMPTY
+  current   missing_screw_002.png  screw bottom-left  truth=SCREW got=EMPTY
+  current   missing_screw_016.png  screw bottom-right truth=SCREW got=EMPTY
+  current   missing_screw_030.png  screw bottom-right truth=SCREW got=EMPTY
+  current   missing_screw_001.png  screw top-left     truth=EMPTY got=SCREW
+  current   missing_screw_007.png  screw bottom-right truth=EMPTY got=SCREW
+  current   missing_screw_011.png  screw bottom-right truth=EMPTY got=SCREW
+  current   missing_screw_017.png  screw bottom-right truth=EMPTY got=SCREW
+  current   missing_screw_023.png  screw top-right    truth=EMPTY got=SCREW
+  current   missing_screw_030.png  screw top-left     truth=EMPTY got=SCREW
+current: 2/12 correct
+
+  candidate good_001.png           screw top-left     truth=SCREW got=SCREW
+  candidate good_011.png           screw top-right    truth=SCREW got=SCREW
+  candidate good_021.png           screw bottom-left  truth=SCREW got=SCREW
+  candidate missing_screw_002.png  screw bottom-left  truth=SCREW got=SCREW
+  candidate missing_screw_016.png  screw bottom-right truth=SCREW got=SCREW
+  candidate missing_screw_030.png  screw bottom-right truth=SCREW got=SCREW
+  candidate missing_screw_001.png  screw top-left     truth=EMPTY got=SCREW
+  candidate missing_screw_007.png  screw bottom-right truth=EMPTY got=SCREW
+  candidate missing_screw_011.png  screw bottom-right truth=EMPTY got=SCREW
+  candidate missing_screw_017.png  screw bottom-right truth=EMPTY got=SCREW
+  candidate missing_screw_023.png  screw top-right    truth=EMPTY got=EMPTY
+  candidate missing_screw_030.png  screw top-left     truth=EMPTY got=EMPTY
+candidate: 8/12 correct
+

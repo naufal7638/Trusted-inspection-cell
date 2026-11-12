@@ -1,0 +1,44 @@
+    crack_01.jpg surface top: CLEAN  No, I do not see any distinct, sharp dark lines.
+    crack_01.jpg surface left: CLEAN  No, I do not see any distinct, sharp dark lines.
+    crack_01.jpg surface center: CLEAN  No, I do not see any distinct sharp dark lines.
+    crack_01.jpg surface right: CLEAN  I do not see any distinct, sharp, dark lines.
+    crack_01.jpg surface bottom: DAMAGED  Yes, I see a distinct, sharp dark line.
+ok crack_01.jpg       top=CLEAN left=CLEAN center=CLEAN right=CLEAN bottom=DAMAGED
+    crack_04.jpg surface top: DAMAGED  Yes, I see a distinct, sharp dark line.
+ok crack_04.jpg       top=DAMAGED
+    good_01.jpg surface top: CLEAN  No, I do not see any distinct sharp dark lines.
+    good_01.jpg surface left: CLEAN  I do not see any distinct, sharp dark lines.
+    good_01.jpg surface center: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_01.jpg surface right: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_01.jpg surface bottom: CLEAN  No, I do not see any distinct, sharp dark lines.
+ok good_01.jpg        top=CLEAN left=CLEAN center=CLEAN right=CLEAN bottom=CLEAN
+    good_04.jpg surface top: CLEAN  No, I do not see any distinct, sharp, dark lines.
+    good_04.jpg surface left: CLEAN  I do not see any distinct, sharp dark lines.
+    good_04.jpg surface center: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_04.jpg surface right: CLEAN  I do not see any distinct, sharp, dark lines.
+    good_04.jpg surface bottom: CLEAN  I do not see any distinct, sharp, dark lines.
+ok good_04.jpg        top=CLEAN left=CLEAN center=CLEAN right=CLEAN bottom=CLEAN
+    good_07.jpg surface top: CLEAN  No, I do not see any distinct, sharp, dark lines.
+    good_07.jpg surface left: CLEAN  I do not see any distinct, sharp, dark lines.
+    good_07.jpg surface center: CLEAN  No, I do not see any distinct sharp dark lines.
+    good_07.jpg surface right: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_07.jpg surface bottom: CLEAN  No, I do not see any distinct, sharp, dark lines.
+ok good_07.jpg        top=CLEAN left=CLEAN center=CLEAN right=CLEAN bottom=CLEAN
+    good_10.jpg surface top: DAMAGED  Yes, I see a distinct, sharp dark line.
+    good_10.jpg surface left: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_10.jpg surface center: CLEAN  No, I do not see any distinct, sharp dark lines.
+    good_10.jpg surface right: CLEAN  No, I do not see any distinct sharp dark lines.
+    good_10.jpg surface bottom: CLEAN  No, I do not see any distinct sharp dark lines.
+XX good_10.jpg        top=DAMAGED left=CLEAN center=CLEAN right=CLEAN bottom=CLEAN
+    scratch_01.jpg surface top: CLEAN  No, I do not see any distinct, sharp dark lines.
+    scratch_01.jpg surface left: CLEAN  No, I do not see any distinct, sharp dark lines.
+    scratch_01.jpg surface center: CLEAN  No, I do not see any distinct sharp dark lines.
+    scratch_01.jpg surface right: DAMAGED  Yes, I see a distinct, sharp dark line.
+ok scratch_01.jpg     top=CLEAN left=CLEAN center=CLEAN right=DAMAGED
+    scratch_04.jpg surface top: CLEAN  No, I do not see any distinct sharp dark lines.
+    scratch_04.jpg surface left: CLEAN  I do not see any distinct, sharp dark lines.
+    scratch_04.jpg surface center: CLEAN  No, I do not see any distinct, sharp dark lines.
+    scratch_04.jpg surface right: DAMAGED  Yes, I see a distinct, sharp, dark line.
+ok scratch_04.jpg     top=CLEAN left=CLEAN center=CLEAN right=DAMAGED
+
+boards right: 7/8
